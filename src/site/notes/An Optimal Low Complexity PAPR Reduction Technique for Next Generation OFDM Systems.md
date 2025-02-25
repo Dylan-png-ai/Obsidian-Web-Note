@@ -5,7 +5,7 @@
 
 ### 想解決的問題?
 
-### 提出甚麼方法?
+### 提出甚麼方法?0000
 - 發射端測量 OFDM modulator 的輸出 ( IFFT 後時域訊號的係數)，將超過閾值 a 的所有係數乘上一個倍數 b (讓訊號強度縮小)，倍數 b 以及被縮放過的係數索引會以另外的 side information 傳送至接收端。
 - 接收端在 OFDM demodulator 之前 ( FFT 前)，依據收到的索引將訊號除上倍數 b，接下去就是一樣的系統。
 - 方法的目標: maximize achievable PAPR reduction and a controllable level of distorsion
